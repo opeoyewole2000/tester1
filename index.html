@@ -7,7 +7,7 @@ Salary Calculator
 </title>
     
    <link rel="stylesheet" type="text/css" href="css/style.css"> 
-   <script type="text/javascript" src="app/employee.js"></script> 
+   <script type="text/javascript" src="index.js"></script> 
 
     
 </head>
@@ -135,7 +135,24 @@ Salary Calculator
     
     </div>
     
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-database.js"></script>
     
+    
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCKPPlKQ6dTbV8pPeuF7QBf0L4U7W0s2FA",
+    authDomain: "tester-1-acef6.firebaseapp.com",
+    databaseURL: "https://tester-1-acef6.firebaseio.com",
+    projectId: "tester-1-acef6",
+    storageBucket: "tester-1-acef6.appspot.com",
+    messagingSenderId: "344995473631"
+  };
+  firebase.initializeApp(config);
+</script>
     
     
 </body>
